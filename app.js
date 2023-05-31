@@ -13,14 +13,14 @@ let h = new Date().getHours();
         hour.innerHTML = h;
       }
       if (m < 10) {
-        minute.innerHTML = ":" + "0" + m;
+        minute.innerHTML = "0" + m;
       } else {
-        minute.innerHTML = ":" + m;
+        minute.innerHTML = m;
       }
       if (s < 10) {
-        second.innerHTML = ":" + "0" + s;
+        second.innerHTML = "0" + s;
       } else {
-        second.innerHTML = ":" + s;
+        second.innerHTML = s;
       }
       if (m > 58) {
         m = 0;
@@ -32,14 +32,14 @@ let h = new Date().getHours();
           hour.innerHTML = h;
         }
         if (m < 10) {
-          minute.innerHTML = ":" + "0" + m;
+          minute.innerHTML = "0" + m;
         } else {
-          minute.innerHTML = ":" + m;
+          minute.innerHTML = m;
         }
         if (s < 10) {
-          second.innerHTML = ":" + "0" + s;
+          second.innerHTML = "0" + s;
         } else {
-          second.innerHTML = ":" + s;
+          second.innerHTML = s;
         }
       }
     } else {
@@ -51,14 +51,14 @@ let h = new Date().getHours();
         hour.innerHTML = h;
       }
       if (m < 10) {
-        minute.innerHTML = ":" + "0" + m;
+        minute.innerHTML = "0" + m;
       } else {
-        minute.innerHTML = ":" + m;
+        minute.innerHTML = m;
       }
       if (s < 10) {
-        second.innerHTML = ":" + "0" + s;
+        second.innerHTML = "0" + s;
       } else {
-        second.innerHTML = ":" + s;
+        second.innerHTML = s;
       }
     }
   }, 1000);
