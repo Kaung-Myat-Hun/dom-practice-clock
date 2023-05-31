@@ -1,0 +1,29 @@
+#root{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10%;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  user-select: none;
+}
+.clock{
+  display: flex;
+}
+#hour, #minute, #second{
+  width: 6rem;
+}
+.active{
+  background-color: #007bff;
+  color: #fff;
+}
+#ampm, #hr24{
+  border: none;
+  width: 5rem;
+  padding: 5px 10px;
+}
+#ampm:hover, #hr24:hover{
+  cursor: pointer;
+}
